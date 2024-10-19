@@ -1,0 +1,11 @@
+https://github.com/cydonia999/VGGFace2-pytorch
+tạo 1 folder : checkpoint
+tạo 1 file txt : log_file.txt
+lên drive tải https://drive.google.com/file/d/1A94PAAnwk6L7hXdBXLFosB_s0SzEhAFU/view
+
+python3.8
+
+
+cmd để chạy :
+python demo.py train --arch_type resnet50_ft --dataset_dir "D:/Users/TUF/Downloads/VGG-Face2/data/train" --train_img_list_file "D:/Users/TUF/Downloads/VGG-Face2/meta/train_list.txt" --test_img_list_file "D:/Users/TUF/Downloads/VGG-Face2/meta/test_list.txt" --meta_file "D:/Users/TUF/Downloads/VGG-Face2/meta/identity_meta.csv" --checkpoint_dir "D:/Users/TUF/Downloads/VGG-Face2/meta/checkpoints" --log_file "D:/Users/TUF/Downloads/VGG-Face2/meta/log_file.txt" --weight_file "D:\Users\TUF\Downloads\VGG-Face2\meta\resnet50_ft_weight.pkl"  --batch_size 32 --gpu 0
+
